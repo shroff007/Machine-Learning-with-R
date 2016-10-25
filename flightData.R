@@ -1,4 +1,5 @@
-getwd()
+#Flight Data obtained from *https://bit.ly/DOT_OnTime*
+getwd() 
 setwd('C:/Users/Shemal/Documents/Machine Learning - JKurata')
 origData <- read.csv2('flight_data.csv', sep=',', header = TRUE, stringsAsFactors = FALSE)
 airports <- c('ATL','LAX','ORD','DFW','JFK','SFO','CLT','LAS','PHX')
